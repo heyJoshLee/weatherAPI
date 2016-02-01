@@ -4,7 +4,7 @@ $(function() {
      
   function findWeather() {
         $.ajax({
-          url: "http://api.openweathermap.org/data/2.5/weather?q=" + city +"," + country +"&units=metric&APPID=INPUTAPIHERE"
+          url: "http://api.openweathermap.org/data/2.5/weather?q=" + city +"," + country +"&units=metric&APPID=f5762c0995d2774d41301332e0b5c436"
         })
         .done(function(data){
           data.weather = data.weather[0];
